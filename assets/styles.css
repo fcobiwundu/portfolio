@@ -1855,6 +1855,9 @@ p {
   .case-layout {
     gap: 1%;
   }
+  .split {
+    gap: 2%;
+  }
 
 
   .hero-copy {
@@ -1896,7 +1899,7 @@ p {
   }
 
   .section {
-    padding: 0 0 48px !important;
+    padding: 0 0 48px;
   }
 
   .section-heading {
