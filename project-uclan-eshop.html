@@ -1,0 +1,331 @@
+
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#FCFCFC">
+
+    <title>UCLan Cyprus E-Shop | FCOBIWUNDU</title>
+
+    <meta name="description" content="A responsive PHP and MySQL e-commerce web application developed by Festus Chinedu Obiwundu as an academic project.">
+    <meta name="author" content="Festus Chinedu Obiwundu">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="UCLan Cyprus E-Shop | FCOBIWUNDU">
+    <meta property="og:description" content="Case study of a responsive e-commerce web application built with PHP, MySQL, PDO, HTML, CSS and JavaScript.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="assets/styles.css">
+
+    <script src="assets/theme-init.js"></script>
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+        <div class="container nav-wrap">
+
+            <a class="brand" href="index.html" aria-label="FCOBIWUNDU home">
+                FCOBIWUNDU<span>.</span>
+            </a>
+
+            <nav class="nav-links" id="primary-navigation" aria-label="Main navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="expertise.html">Expertise</a>
+                <a href="experience.html">Experience</a>
+                <a href="projects.html" aria-current="page">Projects</a>
+                <a href="resume.html">Resume</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+
+                <button class="icon-button" id="theme-toggle" type="button"
+                    aria-label="Switch to dark theme" title="Switch theme">
+                    <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true">
+                        <circle cx="12" cy="12" r="4"></circle>
+                        <path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l-1.42 1.42m11.3-11.3 1.42-1.42"></path>
+                    </svg>
+                </button>
+
+                <button class="menu-button" id="menu-toggle" type="button"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="primary-navigation">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M4 7h16M4 12h16M4 17h16"></path>
+                    </svg>
+                </button>
+
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+
+        <!-- Project introduction -->
+        <section class="page-hero">
+            <div class="container">
+
+                <div class="eyebrow">Project case study · Academic project</div>
+
+                <h1>UCLan Cyprus E-Shop</h1>
+
+                <p class="lead">
+                    Development of a responsive e-commerce web application featuring
+                    product browsing, search and filtering, user accounts, shopping
+                    basket functionality, checkout and product reviews.
+                </p>
+
+            </div>
+        </section>
+
+        <!-- Case study content -->
+        <section class="section">
+            <div class="container case-layout">
+
+                <div class="case-main">
+
+                    <!-- Project visual -->
+                    <div class="project-visual dark"
+                        style="min-height:300px;margin-bottom:36px">
+
+                        <img src="assets/images/projects/uclan-eshop.webp" alt="Student Union Shop e-commerce website showing the homepage, product catalogue, shopping basket and account registration" class="project-image" loading="lazy">
+
+                    </div>
+
+                    <!-- Overview -->
+                    <section>
+                        <h2>Project overview</h2>
+
+                        <p>
+                            The UCLan Cyprus E-Shop is an academic web development
+                            project based on an online student shop concept. The
+                            application provides an e-commerce experience where
+                            users can browse products, view product information,
+                            manage a shopping basket and complete an order.
+                        </p>
+
+                        <p>
+                            The application was developed using PHP and MySQL,
+                            with PDO for database connectivity. The frontend uses
+                            HTML, CSS and JavaScript to provide a responsive
+                            interface across desktop and mobile devices.
+                        </p>
+                    </section>
+
+                    <!-- Features -->
+                    <section>
+                        <h2>Key features and functionality</h2>
+
+                        <p>
+                            The application brings together several core
+                            e-commerce functions:
+                        </p>
+
+                        <ul>
+                            <li>
+                                <strong>Product catalogue:</strong>
+                                Displays products retrieved from the database.
+                            </li>
+
+                            <li>
+                                <strong>Product search and filtering:</strong>
+                                Allows users to search product titles and
+                                descriptions and filter products by category.
+                            </li>
+
+                            <li>
+                                <strong>Product details:</strong>
+                                Provides individual product information pages.
+                            </li>
+
+                            <li>
+                                <strong>User accounts:</strong>
+                                Includes registration and login functionality
+                                using PHP sessions.
+                            </li>
+
+                            <li>
+                                <strong>Shopping basket:</strong>
+                                Supports adding products and managing quantities
+                                through a session-based basket.
+                            </li>
+
+                            <li>
+                                <strong>Checkout and orders:</strong>
+                                Records submitted orders in the database and
+                                clears the shopping basket after checkout.
+                            </li>
+
+                            <li>
+                                <strong>Product reviews:</strong>
+                                Supports customer reviews with ratings, titles
+                                and written descriptions.
+                            </li>
+
+                            <li>
+                                <strong>Responsive interface:</strong>
+                                Adapts the navigation and page layout for
+                                desktop and mobile screen sizes.
+                            </li>
+                        </ul>
+                    </section>
+
+                    <!-- Implementation -->
+                    <section>
+                        <h2>Development and implementation</h2>
+
+                        <p>
+                            PHP handles the server-side application logic,
+                            including user sessions, product retrieval,
+                            shopping basket operations and order processing.
+                            MySQL provides relational data storage for the
+                            application's products, users, offers, orders
+                            and reviews.
+                        </p>
+
+                        <p>
+                            PDO is used for database connectivity, while
+                            JavaScript supports client-side interactions
+                            and responsive navigation behaviour.
+                        </p>
+
+                        <p>
+                            The application was tested on both desktop and
+                            mobile devices, including the responsive
+                            navigation menu.
+                        </p>
+                    </section>
+
+                    <!-- Technical skills -->
+                    <section>
+                        <h2>Technology</h2>
+
+                        <div class="tags">
+                            <span class="tag">PHP</span>
+                            <span class="tag">MySQL</span>
+                            <span class="tag">PDO</span>
+                            <span class="tag">HTML5</span>
+                            <span class="tag">CSS3</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">PHP Sessions</span>
+                            <span class="tag">Responsive Design</span>
+                        </div>
+                    </section>
+
+                    <!-- Learning outcomes -->
+                    <section>
+                        <h2>Skills demonstrated</h2>
+
+                        <p>
+                            This project demonstrates practical experience
+                            developing a database-driven web application,
+                            connecting frontend interfaces with server-side
+                            functionality and implementing common e-commerce
+                            workflows.
+                        </p>
+
+                        <p>
+                            It also provided practical experience in responsive
+                            interface development, database integration,
+                            session management, debugging and testing across
+                            different screen sizes.
+                        </p>
+                    </section>
+
+                </div>
+
+                <!-- Sidebar -->
+                <aside class="case-sidebar">
+
+                    <h3>Project details</h3>
+
+                    <p>
+                        <strong>Type</strong><br>
+                        Academic web development project
+                    </p>
+
+                    <p>
+                        <strong>Role</strong><br>
+                        Web application development
+                    </p>
+
+                    <p>
+                        <strong>Technologies</strong><br>
+                        PHP, MySQL, PDO, HTML, CSS and JavaScript
+                    </p>
+
+                    <p>
+                        <strong>Compatibility</strong><br>
+                        Desktop and mobile
+                    </p>
+
+                    <p>
+                        <strong>Live website</strong><br>
+                        <a class="text-link"
+                           href="https://vesta.uclan.ac.uk/~fcobiwundu/eshop/"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            Visit E-Shop &gt;
+                        </a>
+                    </p>
+
+                    <p>
+                        <strong>Source code</strong><br>
+                        <a class="text-link"
+                           href="https://github.com/fcobiwundu/uclan-eshop"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            View on GitHub &gt;
+                        </a>
+                    </p>
+
+                    <a class="button secondary" href="projects.html">
+                        Back to projects
+                    </a>
+
+                </aside>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-row">
+
+            <div>
+                <a class="brand" href="index.html">
+                    FCOBIWUNDU<span>.</span>
+                </a>
+
+                <p class="footer-copy">
+                    Festus Chinedu Obiwundu · Cyprus
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <a href="https://github.com/fcobiwundu"
+                   target="_blank"
+                   rel="noopener noreferrer">GitHub</a>
+
+                <a href="https://linkedin.com/in/fcobiwundu"
+                   target="_blank"
+                   rel="noopener noreferrer">LinkedIn</a>
+
+                <a href="mailto:fcobiwundu@gmail.com">Email</a>
+
+                <span>© <span data-year></span> FCOBIWUNDU</span>
+            </div>
+
+        </div>
+    </footer>
+
+    <script src="assets/site.js" defer></script>
+</body>
+</html>
