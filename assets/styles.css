@@ -1896,7 +1896,7 @@ p {
   }
 
   .section {
-    padding: 0 0 48px;
+    padding: 0 0 48px !important;
   }
 
   .section-heading {
